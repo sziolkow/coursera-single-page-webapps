@@ -1,0 +1,1 @@
+!function(){"use strict";function n(o,e,r){o.name="sziolkow",o.upper=function(){var n=e("uppercase");o.name=n(o.name)},console.log(r.annotate(n))}angular.module("DIApp",[]).controller("DIController",["$scope","$filter","$injector",n])}();
